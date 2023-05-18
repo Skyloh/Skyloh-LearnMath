@@ -11,7 +11,7 @@ class SubtractionMathProblemTest {
   SubtractionMathProblem problemB;
 
   @BeforeEach
-  public void setupSubtractionTests () {
+  public void setupSubtractionTests() {
     problemA = new SubtractionMathProblem(3, 2);
     problemB = new SubtractionMathProblem(1, 1);
   }
